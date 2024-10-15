@@ -1,4 +1,4 @@
-import asyncio
+simport asyncio
 import base64
 import json
 import os
@@ -371,8 +371,8 @@ async def get_agent_response(assistant_id, user_message):
 
 # Streamlit app
 def main():
-    st.set_page_config(page_title="ProviderFetcher AI Assistant", layout="wide")
-    st.title("ProviderFetcher AI Assistant")
+    st.set_page_config(page_title="Axxess AI", layout="wide")
+    st.title("Axxess AI")
 
     # Sidebar
     st.sidebar.title("Assistant Configuration")
